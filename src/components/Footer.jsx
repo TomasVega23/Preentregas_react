@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="container my-5">
             <div className="row">
                 <div className="col">
-                    <a href={"https://www.facebook.com/McDonaldsArgentina/"} className="me-3"><img src={facebook} alt={"Facebook"} width={"24"} /></a>
-                    <a href={"https://twitter.com/mcdonalds_ar"} className="me-3"><img src={twitter} alt={"Twitter"} width={"24"} /></a>
-                    <a href={"https://www.instagram.com/mcdonalds_ar/"} className="me-3"><img src={instagram} alt={"Instagram"} width={"24"} /></a>
-                    <a href={"https://www.youtube.com/user/McDonaldsSur"}><img src={youtube} alt={"YouTube"} width={"24"} /></a>
+                    <a href={""} className="me-3"><img src={facebook} alt={"Facebook"} width={"24"} /></a>
+                    <a href={""} className="me-3"><img src={twitter} alt={"Twitter"} width={"24"} /></a>
+                    <a href={""} className="me-3"><img src={instagram} alt={"Instagram"} width={"24"} /></a>
+                    <a href={""}><img src={youtube} alt={"YouTube"} width={"24"} /></a>
                 </div>
                 <div className="col text-end">
                     <a href={"https://apps.apple.com/ar/app/mcdonalds-app/id1114009187"} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></a>
