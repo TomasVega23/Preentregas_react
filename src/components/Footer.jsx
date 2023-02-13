@@ -10,14 +10,14 @@ const Footer = () => {
         <div className="container my-5">
             <div className="row">
                 <div className="col">
-                    <a href={""} className="me-3"><img src={facebook} alt={"Facebook"} width={"24"} /></a>
-                    <a href={""} className="me-3"><img src={twitter} alt={"Twitter"} width={"24"} /></a>
-                    <a href={""} className="me-3"><img src={instagram} alt={"Instagram"} width={"24"} /></a>
-                    <a href={""}><img src={youtube} alt={"YouTube"} width={"24"} /></a>
+                    <a href={"/"} className="me-3"><img src={facebook} alt={"Facebook"} width={"24"} /></a>
+                    <a href={"/"} className="me-3"><img src={twitter} alt={"Twitter"} width={"24"} /></a>
+                    <a href={"/"} className="me-3"><img src={instagram} alt={"Instagram"} width={"24"} /></a>
+                    <a href={"/"}><img src={youtube} alt={"YouTube"} width={"24"} /></a>
                 </div>
                 <div className="col text-end">
-                    <a href={""} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></a>
-                    <a href={""} target={"_blank"} rel="noreferrer"><img src={playStore} alt={"PlayStore"} width={"129"} /></a>
+                    <a href={"/"} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></a>
+                    <a href={"/"} target={"_blank"} rel="noreferrer"><img src={playStore} alt={"PlayStore"} width={"129"} /></a>
                 </div>
             </div>
             <hr />
