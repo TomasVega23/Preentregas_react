@@ -39,7 +39,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-4 text-end text-secondary">
-                    <p><img src={logo} alt={"McDonalds Logo"} width={"40"} /> © Moon 2023</p>
+                    <p><img src={logo} alt={" Logo"} width={"40"} /> © Moon 2023</p>
                 </div>
             </div>
         </div>
