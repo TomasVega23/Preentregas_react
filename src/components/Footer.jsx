@@ -16,8 +16,8 @@ const Footer = () => {
                     <a href={""}><img src={youtube} alt={"YouTube"} width={"24"} /></a>
                 </div>
                 <div className="col text-end">
-                    <a href={"https://apps.apple.com/ar/app/mcdonalds-app/id1114009187"} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></a>
-                    <a href={"https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl=es_AR"} target={"_blank"} rel="noreferrer"><img src={playStore} alt={"PlayStore"} width={"129"} /></a>
+                    <a href={""} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></a>
+                    <a href={""} target={"_blank"} rel="noreferrer"><img src={playStore} alt={"PlayStore"} width={"129"} /></a>
                 </div>
             </div>
             <hr />
