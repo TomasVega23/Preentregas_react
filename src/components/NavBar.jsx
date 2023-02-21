@@ -1,5 +1,6 @@
 import CarWidget from "./CartWidget";
 import logo from "./images/moon.png";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
@@ -8,9 +9,9 @@ const NavBar = () => {
                     <div className="col">
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
-                        <a className="navbar-brand" href={"/"}>
+                        <Link className="navbar-brand" to={"/"}>
                             <img src={logo} alt="moon" width={108}/>
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -25,22 +26,24 @@ const NavBar = () => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href={"/"}>
-                                Home
-                                </a>
+                                <NavLink className="nav-link " activeClassName={"active"} to={"/category/relojes"}>
+                                Relojes
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={"/productos"}>
-                                Prodcutos
-                                </a>
+                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/cadenas"}>
+                                Cadenas
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={"/metodo de pago"}>
-                                Metodo de Pago
-                                </a>
+                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/aro"}>
+                                Aros
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={"/contactos"}>Contactos</a>
+                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/anillos"}>
+                                Anillos
+                                </NavLink>
                             </li>
                             </ul>
                         </div>
