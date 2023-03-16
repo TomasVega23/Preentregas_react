@@ -8,7 +8,7 @@ const NavBar = () => {
                 <div className="row">
                     <div className="col">
                     <nav className="navbar navbar-expand-lg">
-                        <div className="container-fluid">
+                        <div className="container-fluid" id="container-nav">
                         <Link className="navbar-brand" to={"/"}>
                             <img src={logo} alt="moon" width={108}/>
                         </Link>
@@ -23,39 +23,38 @@ const NavBar = () => {
                         >
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarNav">
+                        <div className="d-flex justify-content-between" id="navbarNav">
                             <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link " activeClassName={"active"} to={"/category/relojes"}>
+                                <NavLink className="nav-link " to={"/category/relojes"}>
                                 Relojes
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/cadenas"}>
+                                <NavLink className="nav-link" to={"/category/cadenas"}>
                                 Cadenas
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/aro"}>
+                                <NavLink className="nav-link" to={"/category/aro"}>
                                 Aros
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link"  activeClassName={"active"} to={"/category/anillos"}>
+                                <NavLink className="nav-link" to={"/category/anillos"}>
                                 Anillos
                                 </NavLink>
                             </li>
                             </ul>
                         </div>
+                        <CarWidget/>
                         </div>
+                        
                     </nav>
                     </div>
-                    <div className="col d-flex align-items-center justify-content-end">
-                        <CarWidget/>
-                    </div>
                 </div>
                 </div>
-  );
+);
 };
 
 export default NavBar;

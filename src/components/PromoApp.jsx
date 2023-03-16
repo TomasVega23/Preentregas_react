@@ -11,9 +11,9 @@ const PromoApp = () => {
                                 <img src={moon} alt={"moon App"} width={123} />
                             </div>
                             <div className="col-md-9 d-flex align-items-center">
-                                <div>
-                                    <h2>Lorem ipsum dolor sit amet .</h2>
-                                    <p>Descárgate nuestra app y no te pierdas nuestras novedades.</p>
+                                <div className="text-black">
+                                    <h2>Moon</h2>
+                                    <p>Contactanos para cualquiera de tus dudas.</p>
                                 </div>
                             </div>
                         </div>

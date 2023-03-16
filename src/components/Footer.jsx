@@ -3,8 +3,6 @@ import twitter from "./images/twitter.svg";
 import instagram from "./images/instagram.svg";
 import youtube from "./images/youtube.svg";
 import logo from "./images/moon.png";
-import appStore from "./images/app_store_3x_d293084ca1.png";
-import playStore from "./images/disponible_google_play_3x_c977cae3bc.png";
 import { Link, NavLink } from "react-router-dom";
 
 
@@ -19,8 +17,7 @@ const Footer = () => {
                     <Link to={"/"}><img src={youtube} alt={"YouTube"} width={"24"} /></Link>
                 </div>
                 <div className="col text-end">
-                    <Link to={"/"} target={"_blank"} rel="noreferrer" className="me-3"><img src={appStore} alt={"AppStore"} width={"115"} /></Link>
-                    <Link to={"/"} target={"_blank"} rel="noreferrer"><img src={playStore} alt={"PlayStore"} width={"129"} /></Link>
+                <p><img src={logo} alt={" Logo"} width={"40"} /> © Moon 2023</p>
                 </div>
             </div>
             <hr />
@@ -28,21 +25,18 @@ const Footer = () => {
                 <div className="col-md-8">
                     <ul className="nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary" activeClassName={"active"} to={"/"}>Política de Privacidad</NavLink>
+                            <NavLink className="nav-link text-secondary" to={"/"}>Política de Privacidad</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary"  activeClassName={"active"} to={"/"}>Defensa del Consumidor</NavLink>
+                            <NavLink className="nav-link text-secondary" to={"/"}>Defensa del Consumidor</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary"  activeClassName={"active"} to={"/"}>Protección de datos personales</NavLink>
+                            <NavLink className="nav-link text-secondary" to={"/"}>Protección de datos personales</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary"  activeClassName={"active"} to={"/"}>Contacto</NavLink>
+                            <NavLink className="nav-link text-secondary" to={"/"}>Contacto</NavLink>
                         </li>
                     </ul>
-                </div>
-                <div className="col-md-4 text-end text-secondary">
-                    <p><img src={logo} alt={" Logo"} width={"40"} /> © Moon 2023</p>
                 </div>
             </div>
         </div>
